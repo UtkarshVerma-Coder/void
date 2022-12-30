@@ -14,37 +14,63 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
 
+
+/* No online device */
+#users h1{
+  transition: 1s;
+  color: rgb(178, 175, 175);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: auto;
+  background-color: rgba(106, 106, 106, 0.155);
+  padding-top: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  
+}
+
 #users{
   height:100%;
   padding-bottom:15px;
   background:#000;
   width:100%;
   z-index:999999999;
-  color:rgb(255, 255, 255);
   position:relative;
 }
+
+/* Phone Backround[devices] */
 .usr{
+  margin: 10px;
 height:auto;
 width: 90%;
 padding:10px;
 color:rgb(248, 248, 248);
 border-radius:20px;
-background:rgb(0, 0, 0);
-box-shadow:0px 0px 5px  black;
+background:rgba(147, 146, 146, 0.11);
+box-shadow:0px 0px 5px  rgba(0, 0, 0, 0.399);
 margin:auto;
 }
 .usr button:hover{
   cursor: pointer;
-background:rgb(19, 19, 19);
+background:rgba(19, 19, 19, 0.212);
 
 }
+
+
+/* Attact button */
 .usr button{
 height:30px;
 width:150px;
 border:0;
-background:rgb(31, 30, 30);
+background:rgba(118, 118, 118, 0.258);
 border-radius:10px;
-color:rgb(215, 211, 211);
+color:rgb(213, 209, 208);
+font-weight: 900;
+letter-spacing: 2px;
+font-size: 20px;
 }
 #resp{
 padding-bottom:20px;
@@ -186,7 +212,7 @@ display:flex;
 justify-content:center;
 }
 .dfle div{
-border-radius:10px;
+border-radius: 10px;
 }
 #preloaderr {
 height:100%;
